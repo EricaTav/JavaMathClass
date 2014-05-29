@@ -1,0 +1,11 @@
+public class MenorMaior {
+	
+	public static void main(String[] args) {
+		float precoProdutoA[] = { 11.2f, 15.12f };
+		float precoProdutoB[] = { 19.7f, 20 };
+		System.out.println("O maior preço do produto A é "
+		+ Math.max(precoProdutoA[0], precoProdutoA[1]));
+		System.out.println("O menor preço do produto B é "
+		+ Math.min(precoProdutoB[0], precoProdutoB[1]));
+	}
+}
