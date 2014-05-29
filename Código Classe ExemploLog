@@ -1,0 +1,8 @@
+public class ExemploLog {
+	
+	public static void main(String[] args) {
+		float nr = 0.1f;
+		System.out.println("Resultado 1: " + Math.log(nr+1));
+		System.out.println("Resultado 2: " + Math.log1p(nr));
+	}
+}
