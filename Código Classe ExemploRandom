@@ -1,0 +1,11 @@
+public class ExemploRandom {
+	
+	public static void main(String[] args) {
+		int limiteInferior = 5;
+		int limiteSuperior = 10;
+		int alcance = limiteSuperior - limiteInferior;
+		double nrRandomico = Math.random();
+		System.out.println("O número randómico escolhido entre 5 e  10 foi "
+				+ Math.round(limiteInferior + nrRandomico * alcance));
+	}
+}
