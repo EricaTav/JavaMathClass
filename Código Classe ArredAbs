@@ -1,0 +1,14 @@
+
+public class ExemploArredAbs {
+	
+
+	public static void main(String[] args) {
+			float nr = -5.75f;
+			System.out.println("Absoluto: " + Math.abs(nr) +
+					"\nInteiro mais baixo: " + Math.ceil(nr) +
+					"\nInteiro mais alto: " + Math.floor(nr) +
+					"\nDouble mais próximo: " + Math.rint(nr) +
+					"\nArredondamento: " + Math.round(nr));
+	}
+}
+
