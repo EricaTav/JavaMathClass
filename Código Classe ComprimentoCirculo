@@ -1,0 +1,8 @@
+public class ComprimentoCirculo {
+	
+	public static void main(String[] args) {
+		float raio = 2.4f;
+		double comprimento = 2 * raio * Math.PI;
+		System.out.println(comprimento);
+	}
+}
