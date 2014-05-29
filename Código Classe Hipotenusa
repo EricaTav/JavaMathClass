@@ -1,0 +1,11 @@
+public class Hipotenusa {
+	
+	public static void main(String[] args) {
+		double ponto1 = 30;
+		double ponto2 = 40;
+		System.out.println("A distancia entre o "
+				+ ponto1 + " e o " + ponto2 + " é "
+				+ Math.hypot(ponto1, ponto2));
+	}
+}
+
